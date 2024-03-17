@@ -24,3 +24,23 @@
 
 /* Mantine components */
 /* @import "@mantine/core/styles/Button.css"; */
+
+.btn-primary {
+	@apply bg-blue-600;
+}
+
+.btn-secondary {
+	@apply bg-orange-400;
+}
+.btn-success {
+	@apply bg-green-500;
+}
+.btn-danger {
+	@apply bg-red-500;
+}
+.btn-warning {
+	@apply bg-yellow-600;
+}
+.btn-info {
+	@apply bg-sky-400;
+}
